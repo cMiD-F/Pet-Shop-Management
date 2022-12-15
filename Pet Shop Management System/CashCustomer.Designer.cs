@@ -72,7 +72,7 @@ namespace Pet_Shop_Management_System
             this.txtSearch.Location = new System.Drawing.Point(165, 6);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.PasswordChar = '\0';
-            this.txtSearch.PlaceholderText = "Search here";
+            this.txtSearch.PlaceholderText = "Procure";
             this.txtSearch.SelectedText = "";
             this.txtSearch.Size = new System.Drawing.Size(420, 33);
             this.txtSearch.TabIndex = 1;

@@ -93,7 +93,7 @@ namespace Pet_Shop_Management_System
             this.txtSearch.Location = new System.Drawing.Point(700, 3);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.PasswordChar = '\0';
-            this.txtSearch.PlaceholderText = "Search here";
+            this.txtSearch.PlaceholderText = "Procure aqui";
             this.txtSearch.SelectedText = "";
             this.txtSearch.Size = new System.Drawing.Size(297, 41);
             this.txtSearch.TabIndex = 0;
@@ -143,9 +143,9 @@ namespace Pet_Shop_Management_System
             // Column1
             // 
             this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.Column1.HeaderText = "No";
+            this.Column1.HeaderText = "Nº";
             this.Column1.Name = "Column1";
-            this.Column1.Width = 53;
+            this.Column1.Width = 49;
             // 
             // Column2
             // 
@@ -157,22 +157,22 @@ namespace Pet_Shop_Management_System
             // Column3
             // 
             this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.Column3.HeaderText = "Name";
+            this.Column3.HeaderText = "Nome";
             this.Column3.Name = "Column3";
             this.Column3.Width = 76;
             // 
             // Column4
             // 
             this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column4.HeaderText = "Address";
+            this.Column4.HeaderText = "Endereço";
             this.Column4.Name = "Column4";
             // 
             // Column5
             // 
             this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.Column5.HeaderText = "Phone";
+            this.Column5.HeaderText = "Telefone";
             this.Column5.Name = "Column5";
-            this.Column5.Width = 79;
+            this.Column5.Width = 94;
             // 
             // Edit
             // 

@@ -83,9 +83,9 @@ namespace Pet_Shop_Management_System
             this.label3.ForeColor = System.Drawing.Color.Gray;
             this.label3.Location = new System.Drawing.Point(274, 96);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(143, 17);
+            this.label3.Size = new System.Drawing.Size(175, 17);
             this.label3.TabIndex = 3;
-            this.label3.Text = "System Management";
+            this.label3.Text = "Administração de sistema";
             // 
             // label4
             // 

@@ -76,7 +76,7 @@ namespace Pet_Shop_Management_System
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(134, 40);
             this.btnCancel.TabIndex = 27;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = "Cancelar";
             this.btnCancel.UseVisualStyleBackColor = false;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
@@ -91,7 +91,7 @@ namespace Pet_Shop_Management_System
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(134, 40);
             this.btnUpdate.TabIndex = 26;
-            this.btnUpdate.Text = "Update";
+            this.btnUpdate.Text = "Atualizar";
             this.btnUpdate.UseVisualStyleBackColor = false;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
@@ -105,7 +105,7 @@ namespace Pet_Shop_Management_System
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(134, 40);
             this.btnSave.TabIndex = 24;
-            this.btnSave.Text = "Save";
+            this.btnSave.Text = "Salvar";
             this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
@@ -133,9 +133,9 @@ namespace Pet_Shop_Management_System
             this.label4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(8, 165);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(64, 20);
+            this.label4.Size = new System.Drawing.Size(79, 20);
             this.label4.TabIndex = 25;
-            this.label4.Text = "Phone :";
+            this.label4.Text = "Telefone :";
             // 
             // txtAddress
             // 
@@ -150,9 +150,9 @@ namespace Pet_Shop_Management_System
             this.label3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(8, 128);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 20);
+            this.label3.Size = new System.Drawing.Size(89, 20);
             this.label3.TabIndex = 22;
-            this.label3.Text = "Address :";
+            this.label3.Text = "Endereço :";
             // 
             // txtName
             // 
@@ -169,7 +169,7 @@ namespace Pet_Shop_Management_System
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 20);
             this.label2.TabIndex = 18;
-            this.label2.Text = "Name :";
+            this.label2.Text = "Nome :";
             // 
             // label1
             // 
@@ -178,9 +178,9 @@ namespace Pet_Shop_Management_System
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(172)))), ((int)(((byte)(220)))));
             this.label1.Location = new System.Drawing.Point(7, 31);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(232, 24);
+            this.label1.Size = new System.Drawing.Size(214, 24);
             this.label1.TabIndex = 16;
-            this.label1.Text = "Customer Registration";
+            this.label1.Text = "Cadastro de cliente";
             // 
             // panel1
             // 

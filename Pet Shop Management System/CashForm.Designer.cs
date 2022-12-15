@@ -97,7 +97,7 @@ namespace Pet_Shop_Management_System
             this.btnCash.Name = "btnCash";
             this.btnCash.Size = new System.Drawing.Size(123, 36);
             this.btnCash.TabIndex = 7;
-            this.btnCash.Text = "Cash";
+            this.btnCash.Text = "Dinheiro";
             this.btnCash.Click += new System.EventHandler(this.btnCash_Click);
             // 
             // lblTotal
@@ -112,7 +112,7 @@ namespace Pet_Shop_Management_System
             // 
             // lblTransno
             // 
-            this.lblTransno.Location = new System.Drawing.Point(344, 15);
+            this.lblTransno.Location = new System.Drawing.Point(403, 15);
             this.lblTransno.Name = "lblTransno";
             this.lblTransno.Size = new System.Drawing.Size(186, 19);
             this.lblTransno.TabIndex = 5;
@@ -128,7 +128,7 @@ namespace Pet_Shop_Management_System
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(100, 19);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Total Price $";
+            this.label3.Text = "Valor total $";
             // 
             // label2
             // 
@@ -137,9 +137,9 @@ namespace Pet_Shop_Management_System
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(172)))), ((int)(((byte)(220)))));
             this.label2.Location = new System.Drawing.Point(213, 15);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(125, 19);
+            this.label2.Size = new System.Drawing.Size(184, 19);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Transaction no:";
+            this.label2.Text = "Número da transação:";
             // 
             // btnAdd
             // 
@@ -160,7 +160,7 @@ namespace Pet_Shop_Management_System
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(109, 45);
             this.btnAdd.TabIndex = 1;
-            this.btnAdd.Text = "Product";
+            this.btnAdd.Text = "Produto";
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // dgvCash
@@ -203,9 +203,9 @@ namespace Pet_Shop_Management_System
             // Column1
             // 
             this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.Column1.HeaderText = "No";
+            this.Column1.HeaderText = "Nº";
             this.Column1.Name = "Column1";
-            this.Column1.Width = 53;
+            this.Column1.Width = 49;
             // 
             // Column2
             // 
@@ -213,7 +213,7 @@ namespace Pet_Shop_Management_System
             this.Column2.HeaderText = "Cashid";
             this.Column2.Name = "Column2";
             this.Column2.Visible = false;
-            this.Column2.Width = 84;
+            this.Column2.Width = 82;
             // 
             // Column9
             // 
@@ -225,24 +225,24 @@ namespace Pet_Shop_Management_System
             // Column3
             // 
             this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column3.HeaderText = "Name";
+            this.Column3.HeaderText = "Nome";
             this.Column3.Name = "Column3";
             // 
             // Column6
             // 
             this.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.Column6.HeaderText = "Qty";
+            this.Column6.HeaderText = "Qtd";
             this.Column6.Name = "Column6";
-            this.Column6.Width = 58;
+            this.Column6.Width = 60;
             // 
             // Column7
             // 
             this.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.Column7.DefaultCellStyle = dataGridViewCellStyle2;
-            this.Column7.HeaderText = "Price";
+            this.Column7.HeaderText = "Valor";
             this.Column7.Name = "Column7";
-            this.Column7.Width = 69;
+            this.Column7.Width = 71;
             // 
             // Column8
             // 
@@ -256,16 +256,16 @@ namespace Pet_Shop_Management_System
             // Column4
             // 
             this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.Column4.HeaderText = "Customer Name";
+            this.Column4.HeaderText = "Nome do cliente";
             this.Column4.Name = "Column4";
-            this.Column4.Width = 150;
+            this.Column4.Width = 154;
             // 
             // Column5
             // 
             this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.Column5.HeaderText = "Cashier";
+            this.Column5.HeaderText = "Caixa";
             this.Column5.Name = "Column5";
-            this.Column5.Width = 87;
+            this.Column5.Width = 74;
             // 
             // Increase
             // 
@@ -320,6 +320,7 @@ namespace Pet_Shop_Management_System
         private System.Windows.Forms.DataGridView dgvCash;
         private System.Windows.Forms.Label lblTotal;
         private Guna.UI2.WinForms.Guna2Button btnCash;
+        public System.Windows.Forms.Label lblTransno;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
@@ -332,6 +333,5 @@ namespace Pet_Shop_Management_System
         private System.Windows.Forms.DataGridViewImageColumn Increase;
         private System.Windows.Forms.DataGridViewImageColumn Decrease;
         private System.Windows.Forms.DataGridViewImageColumn Delete;
-        public System.Windows.Forms.Label lblTransno;
     }
 }

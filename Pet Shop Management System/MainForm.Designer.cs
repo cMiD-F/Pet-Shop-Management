@@ -89,7 +89,7 @@ namespace Pet_Shop_Management_System
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(709, 20);
             this.lblTitle.TabIndex = 9;
-            this.lblTitle.Text = "Welcome to Pet Shop Management";
+            this.lblTitle.Text = "Bem-vindo ao gestor de pet shop";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
@@ -108,7 +108,7 @@ namespace Pet_Shop_Management_System
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(59, 14);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 16);
+            this.label1.Size = new System.Drawing.Size(98, 16);
             this.label1.TabIndex = 7;
             this.label1.Text = "Developed by";
             // 
@@ -184,7 +184,7 @@ namespace Pet_Shop_Management_System
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Size = new System.Drawing.Size(194, 45);
             this.btnLogout.TabIndex = 6;
-            this.btnLogout.Text = "Logout";
+            this.btnLogout.Text = "Sair";
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // btnCash
@@ -208,7 +208,7 @@ namespace Pet_Shop_Management_System
             this.btnCash.Name = "btnCash";
             this.btnCash.Size = new System.Drawing.Size(194, 45);
             this.btnCash.TabIndex = 4;
-            this.btnCash.Text = "Cash";
+            this.btnCash.Text = "Dinheiro";
             this.btnCash.Click += new System.EventHandler(this.btnCash_Click);
             // 
             // btnProduct
@@ -232,7 +232,7 @@ namespace Pet_Shop_Management_System
             this.btnProduct.Name = "btnProduct";
             this.btnProduct.Size = new System.Drawing.Size(194, 45);
             this.btnProduct.TabIndex = 3;
-            this.btnProduct.Text = "Product";
+            this.btnProduct.Text = "Produtos";
             this.btnProduct.Click += new System.EventHandler(this.btnProduct_Click);
             // 
             // btnUser
@@ -257,7 +257,7 @@ namespace Pet_Shop_Management_System
             this.btnUser.Name = "btnUser";
             this.btnUser.Size = new System.Drawing.Size(194, 45);
             this.btnUser.TabIndex = 2;
-            this.btnUser.Text = "User";
+            this.btnUser.Text = "Usuário";
             this.btnUser.Click += new System.EventHandler(this.btnUser_Click);
             // 
             // btnCustomer
@@ -281,7 +281,7 @@ namespace Pet_Shop_Management_System
             this.btnCustomer.Name = "btnCustomer";
             this.btnCustomer.Size = new System.Drawing.Size(194, 45);
             this.btnCustomer.TabIndex = 1;
-            this.btnCustomer.Text = "Customers";
+            this.btnCustomer.Text = "Clientes";
             this.btnCustomer.Click += new System.EventHandler(this.btnCustomer_Click);
             // 
             // btnDashboard
@@ -326,7 +326,7 @@ namespace Pet_Shop_Management_System
             this.lblRole.Name = "lblRole";
             this.lblRole.Size = new System.Drawing.Size(167, 20);
             this.lblRole.TabIndex = 4;
-            this.lblRole.Text = "role";
+            this.lblRole.Text = "Função";
             this.lblRole.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblUsername
@@ -336,7 +336,7 @@ namespace Pet_Shop_Management_System
             this.lblUsername.Name = "lblUsername";
             this.lblUsername.Size = new System.Drawing.Size(167, 20);
             this.lblUsername.TabIndex = 3;
-            this.lblUsername.Text = "Username";
+            this.lblUsername.Text = "Nome de usuário";
             this.lblUsername.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // guna2CirclePictureBox1
@@ -391,7 +391,7 @@ namespace Pet_Shop_Management_System
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MainForm";
+            this.Text = " ";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
